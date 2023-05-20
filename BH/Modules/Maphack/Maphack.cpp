@@ -569,7 +569,7 @@ void Maphack::OnAutomapDraw() {
 						continue;
 						break;
 					case 1://Me
-						color = missileColors["Player"];
+						color = missileColors["Jugador"];
 						break;
 					case 2://Neutral
 						color = missileColors["Neutral"];
@@ -578,7 +578,7 @@ void Maphack::OnAutomapDraw() {
 						color = missileColors["Party"];
 						break;
 					case 4://Hostile
-						color = missileColors["Hostile"];
+						color = missileColors["Jugador Hostil"];
 						break;
 					}
 
